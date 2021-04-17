@@ -1,4 +1,3 @@
 import React from 'react' 
-
-
-export const Greet = () => <h1>Hello's Vishwas</h1> 
+ 
+export const Greet = () => <h1>Hello World</h1> 
