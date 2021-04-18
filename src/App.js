@@ -7,11 +7,13 @@ import './App.css';
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
 // import FunctionClick from'./components/FunctionClick'
-import ParentComponent from'./components/ParentComponent'
+// import ParentComponent from'./components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 function App() {
   return (
     <div className="App">
-      <ParentComponent/>
+      <UserGreeting />
+      {/* <ParentComponent/> */}
       {/* <EventBind/> */}
       {/* <Message/> */}
       {/* <Counter/> */}
@@ -19,7 +21,7 @@ function App() {
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
       {/* <Greet name="Bruce" heroName="Batman"/> */}
-       {/* <p>This is children props</p></Greet>
+      {/* <p>This is children props</p></Greet>
       <Greet name="Clark" heroName="Superman"></Greet>
       <Greet name="Diana" heroName="Wonder Woman"/>  */}
     </div>
