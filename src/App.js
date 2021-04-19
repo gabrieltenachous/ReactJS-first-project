@@ -9,23 +9,18 @@ import './App.css';
 // import FunctionClick from'./components/FunctionClick'
 // import ParentComponent from'./components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
+
 function App() {
-  return (
-    <div className="App">
-      <UserGreeting />
-      {/* <ParentComponent/> */}
-      {/* <EventBind/> */}
-      {/* <Message/> */}
-      {/* <Counter/> */}
-      {/* <Welcome/> */}
-      {/* <FunctionClick/> */}
-      {/* <ClassClick/> */}
-      {/* <Greet name="Bruce" heroName="Batman"/> */}
-      {/* <p>This is children props</p></Greet>
-      <Greet name="Clark" heroName="Superman"></Greet>
-      <Greet name="Diana" heroName="Wonder Woman"/>  */}
-    </div>
-  );
+    return ( <
+        div className = "App" >
+        <
+        UserGreeting / > { /* <ParentComponent/> */ } { /* <EventBind/> */ } { /* <Message/> */ } { /* <Counter/> */ } { /* <Welcomeaaaa/> */ } { /* <FunctionClick/> */ } { /* <ClassClick/> */ } { /* <Greet name="Bruce" heroName="Batman"/> */ } {
+            /* <p>This is children props</p></Greet>
+                  <Greet name="Clark" heroName="Superman"></Greet>
+                  <Greet name="Diana" heroName="Wonder Woman"/>  */
+        } <
+        /div>
+    );
 }
 
 export default App;
